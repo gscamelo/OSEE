@@ -1,7 +1,7 @@
 #!/usr/bin/python
-#Python script that send your phone number a text as soon as Black Hat 2019 training goes live using Twilio
+#Python script that send your phone number a text as soon as Black Hat 2021 training goes live using Twilio
 #The script can be coupled with cronjob that runs every hour or whatever you may see fit
-#Crontab => */5 * * * * python3 BH21RegChecker.py
+#Crontab every 5 minutes => */5 * * * * python3 BH21RegChecker.py
 
 from twilio.rest import Client
 import requests
